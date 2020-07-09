@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightcoral;
+  padding: 0 15px;
+}
+
+.logo {
+  color: #fff;
+}
+
+.userName,
+.userAge {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.setNameBtn {
+  width: 100px;
+  height: 40px;
+}
+
+/* counter */
+
+.counter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.counter {
+  text-align: center;
+  font-size: 30px;
+}
+
+.counter-btn {
+  width: 100px;
+  height: 40px;
+}
+
+/* form  */
+
+.createTaskForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 0 10px;
+  width: 600px;
+  height: 40px;
+}
+
+.addTaskBtn {
+  width: 100px;
+  height: 40px;
+}
